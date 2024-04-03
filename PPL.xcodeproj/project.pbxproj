@@ -31,9 +31,51 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
+		137976272BBDE0100095FC27 /* Colors */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(PROJECT_DIR)/src/Colors/main.pp -o $(PROJECT_DIR)/hpprgm/Colors.hpprgm  -l $(PROJECT_DIR)/pplib";
+			buildConfigurationList = 137976282BBDE0100095FC27 /* Build configuration list for PBXLegacyTarget "Colors" */;
+			buildPhases = (
+			);
+			buildToolPath = "$(PROJECT_DIR)/p+";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = Colors;
+			passBuildSettingsInEnvironment = 1;
+			productName = Chesss;
+		};
+		1379762B2BBDE0BE0095FC27 /* Periodic */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(PROJECT_DIR)/src/Periodic/main.pp -o $(PROJECT_DIR)/hpprgm/Periodic.hpprgm  -l $(PROJECT_DIR)/pplib";
+			buildConfigurationList = 1379762C2BBDE0BE0095FC27 /* Build configuration list for PBXLegacyTarget "Periodic" */;
+			buildPhases = (
+			);
+			buildToolPath = "$(PROJECT_DIR)/p+";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = Periodic;
+			passBuildSettingsInEnvironment = 1;
+			productName = Chesss;
+		};
+		1379762F2BBDE0EF0095FC27 /* Mad */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(PROJECT_DIR)/src/Mad/main.pp -o $(PROJECT_DIR)/hpprgm/Mad.hpprgm  -l $(PROJECT_DIR)/pplib";
+			buildConfigurationList = 137976302BBDE0EF0095FC27 /* Build configuration list for PBXLegacyTarget "Mad" */;
+			buildPhases = (
+			);
+			buildToolPath = "$(PROJECT_DIR)/p+";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = Mad;
+			passBuildSettingsInEnvironment = 1;
+			productName = Chesss;
+		};
 		138CD3352BA770CA00A8F331 /* Chess */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(PROJECT_DIR)/src/chess.pp -o $(PROJECT_DIR)/hpprgm/chess.hpprgm  -l $(PROJECT_DIR)/../PrimePlus/pplib";
+			buildArgumentsString = "$(PROJECT_DIR)/src/Chess/main.pp -o $(PROJECT_DIR)/hpprgm/Chess.hpprgm  -l $(PROJECT_DIR)/pplib";
 			buildConfigurationList = 138CD3362BA770CA00A8F331 /* Build configuration list for PBXLegacyTarget "Chess" */;
 			buildPhases = (
 			);
@@ -73,11 +115,89 @@
 			projectRoot = "";
 			targets = (
 				138CD3352BA770CA00A8F331 /* Chess */,
+				137976272BBDE0100095FC27 /* Colors */,
+				1379762F2BBDE0EF0095FC27 /* Mad */,
+				1379762B2BBDE0BE0095FC27 /* Periodic */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
+		137976292BBDE0100095FC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1379762A2BBDE0100095FC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1379762D2BBDE0BE0095FC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1379762E2BBDE0BE0095FC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		137976312BBDE0EF0095FC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		137976322BBDE0EF0095FC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		138CD3302BA76F0E00A8F331 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -221,6 +341,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		137976282BBDE0100095FC27 /* Build configuration list for PBXLegacyTarget "Colors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137976292BBDE0100095FC27 /* Debug */,
+				1379762A2BBDE0100095FC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1379762C2BBDE0BE0095FC27 /* Build configuration list for PBXLegacyTarget "Periodic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1379762D2BBDE0BE0095FC27 /* Debug */,
+				1379762E2BBDE0BE0095FC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		137976302BBDE0EF0095FC27 /* Build configuration list for PBXLegacyTarget "Mad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137976312BBDE0EF0095FC27 /* Debug */,
+				137976322BBDE0EF0095FC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		138CD3262BA76F0E00A8F331 /* Build configuration list for PBXProject "PPL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

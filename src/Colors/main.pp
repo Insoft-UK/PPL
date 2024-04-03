@@ -26,8 +26,8 @@
 #include <hp>
 #include <cspace>
 
-#include "Defines.pp"
-#include "Common.pp"
+#include "defines.pp"
+#include "common.pp"
 
 #define self Colors
 var self.channel = 0;
